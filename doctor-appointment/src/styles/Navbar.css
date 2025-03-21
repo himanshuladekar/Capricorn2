@@ -1,0 +1,116 @@
+.navbar {
+    height: 64px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray-200);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo h1 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .notification-icon {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: var(--danger-color);
+    color: var(--white);
+    font-size: 0.7rem;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .user-info {
+    display: none;
+  }
+  
+  .user-name {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .user-role {
+    font-size: 0.8rem;
+    color: var(--gray-600);
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    width: 150px;
+    z-index: 30;
+    overflow: hidden;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px 15px;
+    transition: var(--transition);
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: var(--gray-100);
+    color: var(--primary-color);
+  }
+  
+  /* Responsive */
+  @media (min-width: 768px) {
+    .user-info {
+      display: block;
+    }
+  }
+  
+  
