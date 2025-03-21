@@ -11,7 +11,7 @@ const Chats = () => {
         id: "1",
         name: "Dr. Sarah Johnson",
         specialty: "Cardiologist",
-        image: "/placeholder.svg?height=50&width=50",
+        image: "https://thumbs.dreamstime.com/b/old-male-doctor-cardiologist-working-clinic-251974168.jpg",
       },
       lastMessage: {
         text: "Your test results look good. Keep taking your medication as prescribed.",
@@ -27,7 +27,7 @@ const Chats = () => {
         id: "2",
         name: "Dr. Michael Chen",
         specialty: "Dermatologist",
-        image: "/placeholder.svg?height=50&width=50",
+        image: "https://www.drdivyasharma.com/assets/blog_inner/caffc082b5643d6d3df009cd1abde6b3.png",
       },
       lastMessage: {
         text: "Do you have any questions about the treatment plan?",
@@ -43,7 +43,7 @@ const Chats = () => {
         id: "3",
         name: "Dr. Emily Rodriguez",
         specialty: "Pediatrician",
-        image: "/placeholder.svg?height=50&width=50",
+        image: "https://irp-cdn.multiscreensite.com/71e2a42b/dms3rep/multi/ThinkstockPhotos-147057752.jpg",
       },
       lastMessage: {
         text: "I'll check with the lab and get back to you about those results.",
